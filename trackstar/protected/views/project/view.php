@@ -44,7 +44,16 @@ if(Yii::app()->user->checkAccess('admin',array('project'=>$model))){
 		<h1>#<?php echo $model->name; ?></h1>
 	</div>
 	<div class="joinproject2">
-		<button>join</button>
+<!-- 		<button>join</button> -->
+<!-- 		<a href="">join</a> -->
+	<?php //view中右上角根据权限显示不同的内容?>
+	<?php if(Yii::app()->user->checkAccess('owner',array('project'=>$model))):?>
+		<?php echo CHtml::link('Update Project',array('update','id'=>$model->id)); ?>
+	<?php elseif (Yii::app()->user->checkAccess('member',array('project'=>$model))) :?>
+		<?php echo CHtml::link('quit',array('quitproject','id'=>$model->id)); ?>
+	<?php else :?>
+		<?php echo CHtml::link('join',array('joinproject','id'=>$model->id)); ?>
+	<?php endif;?>
 	</div>
 </div>
 <?php $this->widget('zii.widgets.CDetailView', array(

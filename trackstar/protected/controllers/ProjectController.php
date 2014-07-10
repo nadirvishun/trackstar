@@ -32,7 +32,7 @@ class ProjectController extends Controller
 // 				'users'=>array('@'),
 // 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','index','view'),
+				'actions'=>array('create','update','index','view','joinproject','quitproject'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -228,22 +228,36 @@ class ProjectController extends Controller
 	}
 	
 	/**
-	 * 
+	 * 加入project赋予member权限。
 	 */
 	public function actionJoinproject($id){
 		$model=$this->loadModel($id);
 		if($model->isUserInProject(Yii::app()->user)){//是否已经存在project_user_assignment表中
-			$this->addError('username','This user has already been added to the project.');
+			$model->addError('username','This user has already been added to the project.');
 		}else{
 			$model->associateUserToProject(Yii::app()->user);
 			$model->associateUserToRole('member',Yii::app()->user->id);
 			$auth=Yii::app()->authManager;
 			$bizRule='return isset($params["project"])&& $params["project"]->isUserInRole("member");';
-			$auth->assign('member',Yii::app()->user->id,$bizRule);
+			if(!$auth->isAssigned('member',Yii::app()->user->id)){
+				$auth->assign('member',Yii::app()->user->id,$bizRule);
+			}
+			
 		}
-		$this->render('index');
+		$this->redirect(array('view','id'=>$model->id));
 	}
-	
+	/**
+	 * 退出project取消member权限。
+	 */
+	public function actionQuitproject($id){
+		$model=$this->loadModel($id);
+		$model->removesUserFromProject(Yii::app()->user);
+		$model->removeUserFromRole('member',Yii::app()->user->id);//移除project_user_role中的数据
+		//如果也要移除authassignment中的数据，会影响到其他项目的权限
+// 		$auth=Yii::app()->authManager;                           
+// 		$auth->revoke('member',Yii::app()->user->id);
+		$this->redirect(array('view','id'=>$model->id));
+	}
 	/**
 	 * 添加adduser视图引导
 	 */

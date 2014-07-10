@@ -151,10 +151,17 @@ class Project extends TrackStarActiveRecord
 		return CHtml::listData(Yii::app()->authManager->getRoles(), 'name', 'name');
 	}
 	/**
-	 * 将project和user关联起来
+	 * 将project和user关联起来/移除
 	 */
 	public function associateUserToProject($user){
 		$sql="INSERT INTO tbl_project_user_assignment(project_id,user_id) VALUES (:projectId,:userId)";
+		$command=Yii::app()->db->createCommand($sql);
+		$command->bindValue(":projectId",$this->id,PDO::PARAM_INT);
+		$command->bindValue(":userId",$user->id,PDO::PARAM_INT);
+		return $command->execute();
+	}
+	public function removesUserFromProject($user){
+		$sql="DELETE FROM tbl_project_user_assignment WHERE project_id=:projectId AND user_id=:userId";
 		$command=Yii::app()->db->createCommand($sql);
 		$command->bindValue(":projectId",$this->id,PDO::PARAM_INT);
 		$command->bindValue(":userId",$user->id,PDO::PARAM_INT);

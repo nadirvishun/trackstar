@@ -22,7 +22,8 @@ class ProjectUserForm extends CFormModel{
 				$this->project->associateUserToRole($this->role,$user->id);//添加到project_user_role表中
 				$auth=Yii::app()->authManager;
 				$bizRule='return isset($params["project"])&& $params["project"]->isUserInRole("'.$this->role.'");';//确定是否存在project_user_role表中
-				$auth->assign($this->role,$user->id,$bizRule);//添加到authassignment表中
+				if(!$auth->isAssigned($this->role,$user->id));//判断是否已经添加到authassignment中了
+					$auth->assign($this->role,$user->id,$bizRule);//添加到authassignment表中
 			}
 		}
 	}

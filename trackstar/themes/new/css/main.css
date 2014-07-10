@@ -272,4 +272,7 @@ div.sys-message
 }
 .joinproject2{
 	float:right;
+	margin-right:10px;
+	font-size:large;
+	padding-top:5px;
 }
