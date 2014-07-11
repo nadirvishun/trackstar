@@ -1,252 +1,427 @@
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "log" application component
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "log" application component
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "request" application component
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "request" application component
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "urlManager" application component
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "urlManager" application component
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "cache" application component
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "cache" application component
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+2014/07/11 16:58:57 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+2014/07/11 16:58:57 [trace] [system.web.filters.CFilterChain] Running filter IssueController.filteraccessControl()
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "user" application component
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "user" application component
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "session" application component
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "session" application component
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "db" application component
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (155)
+2014/07/11 16:58:57 [trace] [system.web.filters.CFilterChain] Running filter IssueController.filterprojectContext()
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.CDbConnection] Opening DB connection
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (155)
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "db" application component
+in D:\GitHub\yii_1\trackstar\protected\models\Project.php (24)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (216)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (232)
+2014/07/11 16:58:57 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\GitHub\yii_1\trackstar\protected\models\Project.php (24)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (216)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (232)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\GitHub\yii_1\trackstar\protected\models\Project.php (24)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (216)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (232)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\GitHub\yii_1\trackstar\protected\models\Project.php (24)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (216)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (232)
+2014/07/11 16:58:57 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (216)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (232)
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (155)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=6 LIMIT 1
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (216)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (232)
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (155)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (73)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "clientScript" application component
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (159)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (73)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
-in D:\GitHub\yii_1\trackstar\protected\modules\admin\models\SysMessage.php (105)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (172)
+2014/07/11 16:58:57 [trace] [system.db.ar.CActiveRecord] Project.findByPk()
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (80)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.caching.CFileCache] Serving "Trackstar.ProjectListing.SystemMessage" from cache
-in D:\GitHub\yii_1\trackstar\protected\modules\admin\models\SysMessage.php (105)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (172)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` WHERE `t`.`id`=6 LIMIT 1
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (80)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "themeManager" application component
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "authManager" application component
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (81)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
 in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "widgetFactory" application component
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] Project.count()
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] Project.findAll()
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "assetManager" application component
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "coreMessages" application component
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (35)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (35)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (26)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.ar.CActiveRecord] User.findAll()
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t`
-in D:\GitHub\yii_1\trackstar\protected\models\User.php (142)
-in D:\GitHub\yii_1\trackstar\protected\views\project\_view.php (34)
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (33)
-2014/07/10 17:08:53 [trace] [system.caching.CFileCache] Serving "Yii.COutputCache.TrackStar.ProjectListing.RecentComments..project/index...." from cache
-in D:\GitHub\yii_1\trackstar\protected\views\project\index.php (43)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-in D:\GitHub\yii_1\trackstar\index.php (13)
-2014/07/10 17:08:53 [trace] [system.CModule] Loading "authManager" application component
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main_p.php (38)
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\column2_p.php (22)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
 FROM `AuthAssignment`
 WHERE userid=:userid
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main_p.php (38)
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\column2_p.php (22)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (81)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
 FROM `AuthItem`
 WHERE name=:name
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main_p.php (38)
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\column2_p.php (22)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-2014/07/10 17:08:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main_p.php (38)
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\column2_p.php (22)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
-2014/07/10 17:08:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (81)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "member"
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (81)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Executing SQL: SELECT role FROM tbl_project_user_role WHERE project_id=:projectId AND user_id=:userId AND role=:role
+in D:\GitHub\yii_1\trackstar\protected\models\Project.php (145)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (81)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
+2014/07/11 16:58:57 [trace] [system.db.ar.CActiveRecord] Issue.insert()
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (91)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `tbl_issue` (`project_id`, `name`, `description`, `type_id`, `status_id`, `owner_id`, `requester_id`, `update_time`, `create_time`, `update_user_id`, `create_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, NOW(), NOW(), :yp7, :yp8)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (91)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (233)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "log" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "request" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.CModule] Loading "cache" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:57 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.web.filters.CFilterChain] Running filter IssueController.filteraccessControl()
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "user" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "session" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "db" application component
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:58:58 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:58:58 [trace] [system.db.ar.CActiveRecord] Issue.findByPk()
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_issue` `t` WHERE `t`.`id`=6 LIMIT 1
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (245)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (57)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (245)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (57)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "themeManager" application component
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.project
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT `project`.`id` AS `t1_c0`, `project`.`name` AS `t1_c1`, `project`.`description` AS `t1_c2`, `project`.`create_time` AS `t1_c3`, `project`.`create_user_id` AS `t1_c4`, `project`.`update_time` AS `t1_c5`, `project`.`update_user_id` AS `t1_c6` FROM `tbl_project` `project`  WHERE (`project`.`id`=:ypl0)
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.owner
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT `owner`.`id` AS `t1_c0`, `owner`.`email` AS `t1_c1`, `owner`.`username` AS `t1_c2`, `owner`.`password` AS `t1_c3`, `owner`.`last_login_time` AS `t1_c4`, `owner`.`create_time` AS `t1_c5`, `owner`.`create_user_id` AS `t1_c6`, `owner`.`update_time` AS `t1_c7`, `owner`.`update_user_id` AS `t1_c8` FROM `tbl_user` `owner`  WHERE (`owner`.`id`=:ypl0)
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.requester
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (46)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT `requester`.`id` AS `t1_c0`, `requester`.`email` AS `t1_c1`, `requester`.`username` AS `t1_c2`, `requester`.`password` AS `t1_c3`, `requester`.`last_login_time` AS `t1_c4`, `requester`.`create_time` AS `t1_c5`, `requester`.`create_user_id` AS `t1_c6`, `requester`.`update_time` AS `t1_c7`, `requester`.`update_user_id` AS `t1_c8` FROM `tbl_user` `requester`  WHERE (`requester`.`id`=:ypl0)
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (46)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "assetManager" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "format" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.commentCount
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (55)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT `issue_id` AS `c`, COUNT(*) AS `s` FROM `tbl_comment` `t` WHERE (`t`.`issue_id`=6) GROUP BY `issue_id`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (55)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:58:58 [trace] [system.CModule] Loading "authManager" application component
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:58:58 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:58:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
 FROM `AuthItemChild`
 WHERE child=:name
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main_p.php (38)
-in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\column2_p.php (22)
-in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (183)
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "log" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "request" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "urlManager" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "cache" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.web.filters.CFilterChain] Running filter IssueController.filteraccessControl()
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "user" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "session" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "db" application component
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (107)
+2014/07/11 16:59:01 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (107)
+2014/07/11 16:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (107)
+2014/07/11 16:59:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (107)
+2014/07/11 16:59:01 [trace] [system.db.ar.CActiveRecord] Issue.findByPk()
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (107)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_issue` `t` WHERE `t`.`id`=6 LIMIT 1
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (107)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "themeManager" application component
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (131)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\_form.php (12)
+in D:\GitHub\yii_1\trackstar\protected\views\issue\update.php (21)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (131)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "log" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "request" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "urlManager" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "cache" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.web.filters.CFilterChain] Running filter IssueController.filteraccessControl()
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "user" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "session" application component
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "db" application component
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:59:04 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in D:\GitHub\yii_1\trackstar\protected\models\Issue.php (47)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+2014/07/11 16:59:04 [trace] [system.db.ar.CActiveRecord] Issue.findByPk()
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_issue` `t` WHERE `t`.`id`=6 LIMIT 1
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (191)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (56)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (245)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (57)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (245)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (57)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "themeManager" application component
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.project
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `project`.`id` AS `t1_c0`, `project`.`name` AS `t1_c1`, `project`.`description` AS `t1_c2`, `project`.`create_time` AS `t1_c3`, `project`.`create_user_id` AS `t1_c4`, `project`.`update_time` AS `t1_c5`, `project`.`update_user_id` AS `t1_c6` FROM `tbl_project` `project`  WHERE (`project`.`id`=:ypl0)
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (6)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.owner
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `owner`.`id` AS `t1_c0`, `owner`.`email` AS `t1_c1`, `owner`.`username` AS `t1_c2`, `owner`.`password` AS `t1_c3`, `owner`.`last_login_time` AS `t1_c4`, `owner`.`create_time` AS `t1_c5`, `owner`.`create_user_id` AS `t1_c6`, `owner`.`update_time` AS `t1_c7`, `owner`.`update_user_id` AS `t1_c8` FROM `tbl_user` `owner`  WHERE (`owner`.`id`=:ypl0)
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (41)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.requester
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (46)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `requester`.`id` AS `t1_c0`, `requester`.`email` AS `t1_c1`, `requester`.`username` AS `t1_c2`, `requester`.`password` AS `t1_c3`, `requester`.`last_login_time` AS `t1_c4`, `requester`.`create_time` AS `t1_c5`, `requester`.`create_user_id` AS `t1_c6`, `requester`.`update_time` AS `t1_c7`, `requester`.`update_user_id` AS `t1_c8` FROM `tbl_user` `requester`  WHERE (`requester`.`id`=:ypl0)
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (46)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "assetManager" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "clientScript" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.CModule] Loading "format" application component
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (53)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:04 [trace] [system.db.ar.CActiveRecord] lazy loading Issue.commentCount
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (55)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT `issue_id` AS `c`, COUNT(*) AS `s` FROM `tbl_comment` `t` WHERE (`t`.`issue_id`=6) GROUP BY `issue_id`
+in D:\GitHub\yii_1\trackstar\protected\views\issue\view.php (55)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/11 16:59:05 [trace] [system.CModule] Loading "authManager" application component
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:59:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:59:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:59:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)
+2014/07/11 16:59:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in D:\GitHub\yii_1\trackstar\themes\new\views\layouts\main.php (38)
+in D:\GitHub\yii_1\trackstar\protected\views\layouts\column2.php (22)
+in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php (62)

@@ -2,6 +2,7 @@
 
 class IssueController extends Controller
 {
+	private $_project=null;
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
@@ -28,12 +29,12 @@ class IssueController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
-				'users'=>array('@'),
-			),
+// 			array('allow',  // allow all users to perform 'index' and 'view' actions
+// 				'actions'=>array('index','view'),
+// 				'users'=>array('@'),
+// 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','index','view'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -67,11 +68,22 @@ class IssueController extends Controller
 	 */
 	public function actionCreate()
 	{
+		
+		
 		$model=new Issue;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 		$model->project_id=$this->_project->id;//将project_id的数据写入数据库
+		
+		//从控制端来只让member权限的染能创建issue
+		$project=Project::model()->findbyPk($model->project_id);
+		if(!Yii::app()->user->checkAccess('member', array('project'=>$project)))
+		{
+			throw new CHttpException(403,'You are not authorized to per-form this action.');
+		}
+			
+		
 		
 		if(isset($_POST['Issue']))
 		{
@@ -93,6 +105,16 @@ class IssueController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
+		//只有创建者才能修改issue
+		if($model->create_user_id!==Yii::app()->user->id){
+			throw new CHttpException(403,'You are not authorized to per-form this action.');
+		}
+		//无法用checkAccess来判定，除非分为projectowner，issueowner等多重
+// 		$project=Project::model()->findbyPk($model->project_id);
+// 		if(!Yii::app()->user->checkAccess('createIssue', array('project'=>$project)))
+// 		{
+// 			throw new CHttpException(403,'You are not authorized to per-form this action.');
+// 		}
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -188,7 +210,7 @@ class IssueController extends Controller
 	 * 过滤器
 	 */
 	//测试project项目是否存在
-	private $_project=null;
+	
 	protected function loadProject($project_id){
 		if($this->_project===null){
 			$this->_project=Project::model()->findbyPk($project_id);

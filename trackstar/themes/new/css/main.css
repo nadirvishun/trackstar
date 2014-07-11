@@ -267,7 +267,7 @@ div.sys-message
 }
 /*设定joinproject按钮*/
 .joinproject1{
-	
+	margin-top:10px;
 	float:left;
 }
 .joinproject2{
@@ -275,4 +275,14 @@ div.sys-message
 	margin-right:10px;
 	font-size:large;
 	padding-top:5px;
+}
+
+.hint{
+	color:#999;
+}
+.createissue{
+	float:right;
+	margin-right:5px;
+
+	padding-top:10px;
 }

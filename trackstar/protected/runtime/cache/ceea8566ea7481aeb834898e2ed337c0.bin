@@ -1,9 +1,19 @@
-a:2:{i:0;a:2:{i:0;s:610:"<div class="portlet" id="yw2">
+a:2:{i:0;a:2:{i:0;s:988:"<div class="portlet" id="yw2">
 <div class="portlet-decoration">
 <div class="portlet-title">Recent Comments</div>
 </div>
 <div class="portlet-content">
 <ul>
+		<div>
+		vishun added a comment.
+	</div>
+	<div class="issue">
+		<a href="/git/yii_1/trackstar/issue/5">创建完成后project的create_user_id会变成Issue的创建者？</a>	</div>
+		<div>
+		vishun added a comment.
+	</div>
+	<div class="issue">
+		<a href="/git/yii_1/trackstar/issue/5">创建完成后project的create_user_id会变成Issue的创建者？</a>	</div>
 		<div>
 		admin added a comment.
 	</div>

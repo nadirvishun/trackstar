@@ -47,7 +47,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'owner_id'); ?>
 		<?php echo $form->dropDownList($model,'owner_id',$this->getProject()->getUserOptions()); ?>
-		<!--<?php echo $form->dropDownList($model,'owner_id',Project::model()->getUserOptions()); ?>-->
+		<?php // echo $form->dropDownList($model,'owner_id',Project::model()->getUserOptions()); ?>
 		<?php echo $form->error($model,'owner_id'); ?>
 	</div>
 	
