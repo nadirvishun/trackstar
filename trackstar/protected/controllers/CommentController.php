@@ -32,15 +32,16 @@ class CommentController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','feed'),
+				'actions'=>array('feed'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+			// 用renderPartial来引导的视图，不用考虑权限验证的问题，我设置了只有admin才能create，但是在这里仍然能发表。
+				'actions'=>array('admin','delete','index','create','view'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -94,12 +95,18 @@ class CommentController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
+		//只有创建者才能update
+		if($model->create_user_id!==Yii::app()->user->id){
+			throw new CHttpException(403,'You are not authorized to per-form this action.');
+		}
 
 		if(isset($_POST['Comment']))
 		{
 			$model->attributes=$_POST['Comment'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+// 				$this->redirect(array('view','id'=>$model->id));
+// 				$this->redirect(Yii::app()->request->urlReferrer);//不起作用，还是停留在原页面
+				$this->redirect(array('/issue/view','id'=>$model->issue_id));
 		}
 
 		$this->render('update',array(

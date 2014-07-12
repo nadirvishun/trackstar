@@ -3716,3 +3716,475 @@ Stack trace:
 REQUEST_URI=/git/yii_1/trackstar/issue/create?pid=1
 HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
 ---
+2014/07/12 09:02:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/2
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 09:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/2
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 09:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/4
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/4
+---
+2014/07/12 09:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/4
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/4
+---
+2014/07/12 09:04:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/4
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/4
+---
+2014/07/12 09:09:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to per-form this action.' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:110
+Stack trace:
+#0 [internal function]: IssueController->actionUpdate('2')
+#1 D:\GitHub\yii_1\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(IssueController), Array)
+#2 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(IssueController), Object(ReflectionMethod), Array)
+#3 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(233): CFilterChain->run()
+#6 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#15 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#16 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/2?pid=1
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 09:10:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\GitHub\yii_1\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\GitHub\yii_1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#9 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/admin?pid=1
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 09:13:26 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.i" is not defined.' in D:\GitHub\yii_1\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\auth\CWebUser.php(140): CComponent->__get('i')
+#1 D:\GitHub\yii_1\trackstar\protected\views\issue\view.php(17): CWebUser->__get('i')
+#2 D:\GitHub\yii_1\framework\web\CBaseController.php(126): require('D:\GitHub\yii_1...')
+#3 D:\GitHub\yii_1\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\GitHub\yii_1...', Array, true)
+#4 D:\GitHub\yii_1\framework\web\CController.php(869): CBaseController->renderFile('D:\GitHub\yii_1...', Array, true)
+#5 D:\GitHub\yii_1\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(62): CController->render('view', Array)
+#7 [internal function]: IssueController->actionView('2')
+#8 D:\GitHub\yii_1\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(IssueController), Array)
+#9 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(IssueController), Object(ReflectionMethod), Array)
+#10 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('view')
+#19 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/view')
+#20 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/2
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/project/1
+---
+2014/07/12 09:51:29 [error] [exception.CException] exception 'CException' with message 'Issue and its behaviors do not have a method or closure named "isUserInRole".' in D:\GitHub\yii_1\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\GitHub\yii_1\framework\db\ar\CActiveRecord.php(225): CComponent->__call('isUserInRole', Array)
+#1 D:\GitHub\yii_1\framework\web\auth\CAuthManager.php(149) : eval()'d code(1): CActiveRecord->__call('isUserInRole', Array)
+#2 D:\GitHub\yii_1\framework\web\auth\CAuthManager.php(149) : eval()'d code(1): Issue->isUserInRole('member')
+#3 D:\GitHub\yii_1\framework\web\auth\CAuthManager.php(149): eval()
+#4 D:\GitHub\yii_1\framework\web\auth\CDbAuthManager.php(105): CAuthManager->executeBizRule('return isset($p...', Array, NULL)
+#5 D:\GitHub\yii_1\framework\web\auth\CDbAuthManager.php(75): CDbAuthManager->checkAccessRecursive('member', '4', Array, Array)
+#6 D:\GitHub\yii_1\framework\web\auth\CWebUser.php(806): CDbAuthManager->checkAccess('member', '4', Array)
+#7 D:\GitHub\yii_1\trackstar\protected\views\issue\view.php(67): CWebUser->checkAccess('member', Array)
+#8 D:\GitHub\yii_1\framework\web\CBaseController.php(126): require('D:\GitHub\yii_1...')
+#9 D:\GitHub\yii_1\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\GitHub\yii_1...', Array, true)
+#10 D:\GitHub\yii_1\framework\web\CController.php(869): CBaseController->renderFile('D:\GitHub\yii_1...', Array, true)
+#11 D:\GitHub\yii_1\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#12 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(62): CController->render('view', Array)
+#13 [internal function]: IssueController->actionView('4')
+#14 D:\GitHub\yii_1\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(IssueController), Array)
+#15 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(IssueController), Object(ReflectionMethod), Array)
+#16 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#23 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('view')
+#25 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/view')
+#26 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/4
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/project/4
+---
+2014/07/12 09:53:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to per-form this action.' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:83
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(49): IssueController->actionCreate()
+#1 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(233): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('create')
+#13 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#14 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/create?pid=1
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 09:57:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\GitHub\yii_1\framework\web\CController.php:336
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('joinproject')
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('project/joinpro...')
+#10 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/git/yii_1/trackstar/project/joinproject?pid=1
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 10:03:59 [error] [php] Undefined index: returnUrl (D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php:248)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): ProjectController->runAction()
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): ProjectController->filterAccessControl()
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): ProjectController->run()
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/project/joinproject/1
+in D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php (248)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/12 11:23:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\GitHub\yii_1\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\GitHub\yii_1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#9 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment
+---
+2014/07/12 11:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "commentfeed".' in D:\GitHub\yii_1\framework\web\CController.php:483
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(270): CController->missingAction('commentfeed')
+#1 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('commentfeed')
+#2 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/commentfee...')
+#3 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yii_1/trackstar/commentfeed.xml
+---
+2014/07/12 11:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "feed.xml".' in D:\GitHub\yii_1\framework\web\CController.php:483
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(270): CController->missingAction('feed.xml')
+#1 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('feed.xml')
+#2 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/feed.xm...')
+#3 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment/feed.xml
+---
+2014/07/12 11:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "feed.xml".' in D:\GitHub\yii_1\framework\web\CController.php:483
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(270): CController->missingAction('feed.xml')
+#1 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('feed.xml')
+#2 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/feed.xm...')
+#3 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment/feed.xml
+---
+2014/07/12 11:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "commentfeed".' in D:\GitHub\yii_1\framework\web\CController.php:483
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(270): CController->missingAction('commentfeed')
+#1 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('commentfeed')
+#2 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/commentfee...')
+#3 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yii_1/trackstar/commentfeed.xml
+---
+2014/07/12 11:25:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "comment".' in D:\GitHub\yii_1\framework\web\CController.php:483
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(270): CController->missingAction('comment')
+#1 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('comment')
+#2 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/comment/u...')
+#3 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/comment/update
+---
+2014/07/12 11:26:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\GitHub\yii_1\framework\web\CController.php:336
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/update')
+#10 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment/update
+---
+2014/07/12 11:34:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\GitHub\yii_1\framework\web\CController.php:336
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/update')
+#10 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment/update
+---
+2014/07/12 11:56:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/1
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 11:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/1
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 11:56:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php:218
+Stack trace:
+#0 D:\GitHub\yii_1\trackstar\protected\controllers\IssueController.php(232): IssueController->loadProject(NULL)
+#1 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#10 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/update')
+#11 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/git/yii_1/trackstar/issue/update/2
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 11:58:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to per-form this action.' in D:\GitHub\yii_1\trackstar\protected\controllers\CommentController.php:99
+Stack trace:
+#0 [internal function]: CommentController->actionUpdate('1')
+#1 D:\GitHub\yii_1\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CommentController), Array)
+#2 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CommentController), Object(ReflectionMethod), Array)
+#3 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#12 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/update')
+#13 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment/update/1
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 11:59:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to per-form this action.' in D:\GitHub\yii_1\trackstar\protected\controllers\CommentController.php:99
+Stack trace:
+#0 [internal function]: CommentController->actionUpdate('3')
+#1 D:\GitHub\yii_1\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CommentController), Array)
+#2 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CommentController), Object(ReflectionMethod), Array)
+#3 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('update')
+#12 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/update')
+#13 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment/update/3
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/issue/2
+---
+2014/07/12 12:02:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\GitHub\yii_1\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\GitHub\yii_1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('view')
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/view')
+#9 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/git/yii_1/trackstar/comment/6
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/comment/update/6
+---

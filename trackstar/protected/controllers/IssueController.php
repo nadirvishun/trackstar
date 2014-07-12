@@ -17,7 +17,7 @@ class IssueController extends Controller
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
-			'projectContext + create index admin',//设置ISSUE创建时必须有project关联
+			'projectContext + create index admin update',//设置ISSUE创建时必须有project关联
 		);
 	}
 

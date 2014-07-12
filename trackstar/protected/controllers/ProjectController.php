@@ -62,7 +62,7 @@ class ProjectController extends Controller
 					':projectId'=>$this->loadModel($id)->id
 				),	
 			),
-			'pagination'=>array('pageSize'=>2),
+			'pagination'=>array('pageSize'=>5),
 		));
 		
 		/**
@@ -244,7 +244,11 @@ class ProjectController extends Controller
 			}
 			
 		}
-		$this->redirect(array('view','id'=>$model->id));
+// 		$this->redirect(array('view','id'=>$model->id));
+// 		$this->redirect(Yii::app()->user->returnUrl);
+// 		Yii::app()->request->redirect(Yii::app()->user->returnUrl);
+		$this->redirect(Yii::app()->request->urlReferrer);
+// 		$this->redirect(Yii::app()->request->url);
 	}
 	/**
 	 * 退出project取消member权限。
@@ -257,6 +261,7 @@ class ProjectController extends Controller
 // 		$auth=Yii::app()->authManager;                           
 // 		$auth->revoke('member',Yii::app()->user->id);
 		$this->redirect(array('view','id'=>$model->id));
+		
 	}
 	/**
 	 * 添加adduser视图引导

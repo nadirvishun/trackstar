@@ -286,3 +286,19 @@ div.sys-message
 
 	padding-top:10px;
 }
+.comment1{
+	
+	float:left;
+}
+.updatecomment{
+	float:right;
+	margin-right:5px;
+}
+hr{
+	margin:5px 0 5px;
+}
+.content{
+	margin-top:10px;
+	font-size:120%;
+	font-weight:bold;
+}
