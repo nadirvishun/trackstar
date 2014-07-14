@@ -7,8 +7,8 @@
 // );
 
 $this->menu=array(
-	array('label'=>'Create Project', 'url'=>array('create')),
-	array('label'=>'Change Password', 'url'=>array('/user/updatepass','id'=>Yii::app()->user->id)),
+	array('label'=>'创建项目', 'url'=>array('create')),
+	array('label'=>'修改密码', 'url'=>array('/user/updatepass','id'=>Yii::app()->user->id)),
 // 	array('label'=>'Manage Project', 'url'=>array('admin')),
 );
 ?>
@@ -25,7 +25,7 @@ $this->menu=array(
 	?>
 <?php endif;?>
 
-<h1>Projects</h1>
+<h1>项目</h1>
 <?php //显示项目?>
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

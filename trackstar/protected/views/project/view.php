@@ -1,9 +1,10 @@
 <?php
 /* @var $this ProjectController */
 /* @var $model Project */
-
+//view和index用不同的column
+ $this->layout='//layouts/column2';
 $this->breadcrumbs=array(
-	'Projects'=>array('index'),
+// 	'Projects'=>array('index'),
 	$model->name,
 );
 

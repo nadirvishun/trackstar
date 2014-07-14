@@ -50,7 +50,7 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My TrackStar.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> by TrackStar_Vishun.<br/>
 		All Rights Reserved.<br/>
 		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->

@@ -38,9 +38,9 @@ class LoginForm extends CFormModel
 		return array(
 // 			'rememberMe'=>'Remember me next time',
 			//激活翻译
-			'rememberMe'=>Yii::t('default','Remember me next time'),
-			'username'=>Yii::t('default', 'Username'),
-			'password'=>Yii::t('default', 'Password'),
+			'rememberMe'=>Yii::t('zh_cn','Remember me next time'),
+			'username'=>Yii::t('zh_cn', 'Username'),
+			'password'=>Yii::t('zh_cn', 'Password'),
 		);
 	}
 

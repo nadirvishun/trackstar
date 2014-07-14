@@ -1,7 +1,7 @@
 <?php
 class RecentComments extends CWidget{
 	private $_comments;
-	public $displayLimit=5;
+	public $displayLimit=10;
 	public $projectId=null;
 	public function init(){
 		$this->_comments=Comment::model()->findRecentComments($this->displayLimit,$this->projectId);

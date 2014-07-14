@@ -108,7 +108,7 @@ class Comment extends TrackStarActiveRecord
 	/**
 	 *  返回相关评论
 	 */
-	public static function findRecentComments($limit=10,$projectId=null){
+	public static function findRecentComments($limit,$projectId=null){
 		if($projectId!=null){//返回特定ID的评论
 			return self::model()->with(array('issue'=>array('condition'=>'project_id='.$projectId)))->findAll(
 				array(
@@ -122,5 +122,41 @@ class Comment extends TrackStarActiveRecord
 				'limit'=>$limit,
 			));
 		}
+	}
+	/**
+	 *
+	 * cut String
+	 * @param unknown_type $str
+	 * @param unknown_type $sublen
+	 * @param unknown_type $t
+	 */
+	function mbSubstr($str, $sublen, $t=1)
+	{
+		if(strlen($str)<=$sublen) {
+			$rStr = $str;
+		} else {
+			$I = 0;
+			while ($I<$sublen) {
+				$StringTMP = substr($str,$I,1);
+	
+				if (ord($StringTMP)>=224) {
+					$StringTMP = substr($str,$I,3);
+					$I = $I + 3;
+				} elseif (ord($StringTMP)>=192) {
+					$StringTMP = substr($str,$I,2);
+					$I = $I + 2;
+				} else {
+					$I = $I + 1;
+				}
+	
+				$StringLast[] = $StringTMP;
+			}
+	
+			$rStr = implode("",$StringLast);
+			if ($t==1)
+				$rStr .='...';
+		}
+	
+		return $rStr;
 	}
 }

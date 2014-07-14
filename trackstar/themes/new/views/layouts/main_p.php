@@ -26,8 +26,16 @@
 
 	<div id="header">
 		<div id="logo"></div><?php //在css中已经包含header图片了?>
+		<?php //语言转换选项?>
+		<div style="text-align: right">  
+        	<?php echo CHtml::link ( ' 中文简体 ' , $this->langurl('zh_cn')) . '| ' .   
+                   CHtml::link ( ' English ' ,$this->langurl('en_us')) ;  
+        	?>  
+    	</div>  
+		
 	</div><!-- header -->
-
+	
+    
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
@@ -52,7 +60,7 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by TrackStar.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> by TrackStar_Vishun.<br/>
 		All Rights Reserved.<br/>
 		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->

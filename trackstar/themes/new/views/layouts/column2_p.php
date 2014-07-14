@@ -16,6 +16,16 @@
 			'htmlOptions'=>array('class'=>'operations'),
 		));
 		$this->endWidget();
+	
+		
+		$this->beginWidget('zii.widgets.CPortlet', array(
+				'title'=>'Recent Comments',
+		));
+		$this->widget('RecentComments');
+		$this->endWidget();
+		
+		
+	
 	?>
 	</div><!-- sidebar -->
 </div>

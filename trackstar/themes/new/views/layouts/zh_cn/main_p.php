@@ -28,23 +28,24 @@
 		<div id="logo"></div><?php //在css中已经包含header图片了?>
 		<?php //语言转换选项?>
 		<div style="text-align: right">  
-       	 	<?php echo CHtml::link ( ' 中文简体 ' , $this->langurl('zh_cn')) . '| ' .   
+        	<?php echo CHtml::link ( ' 中文简体 ' , $this->langurl('zh_cn')) . '| ' .   
                    CHtml::link ( ' English ' ,$this->langurl('en_us')) ;  
         	?>  
-    	</div> 
+    	</div>  
+		
 	</div><!-- header -->
-
+	
+    
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Projects', 'url'=>array('/project')),
+				array('label'=>'项目', 'url'=>array('/project')),
 // 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 // 				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Admin', 'url'=>array('/admin/default/index'),
+				array('label'=>'后台', 'url'=>array('/admin/default/index'),
 						'visible'=>Yii::app()->authManager->checkAccess("admin", Yii::app()->user->id)),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Register', 'url'=>array('/user/create'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>'登录', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+				array('label'=>'注销 ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 		)); ?>
 	</div><!-- mainmenu -->
@@ -53,7 +54,7 @@
 			'links'=>$this->breadcrumbs,
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
-
+	
 	<?php echo $content; ?>
 
 	<div class="clear"></div>

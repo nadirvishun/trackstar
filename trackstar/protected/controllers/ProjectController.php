@@ -51,6 +51,7 @@ class ProjectController extends Controller
 	 */
 	public function actionView($id)
 	{
+// 		$layout='//layouts/column2';
 		/**
 			在view中显示Project对应的Issues
 		 */

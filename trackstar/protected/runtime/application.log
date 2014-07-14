@@ -4188,3 +4188,159 @@ Stack trace:
 REQUEST_URI=/git/yii_1/trackstar/comment/6
 HTTP_REFERER=http://localhost/git/yii_1/trackstar/comment/update/6
 ---
+2014/07/14 10:30:40 [error] [exception.CException] exception 'CException' with message 'ProjectController has an extra endWidget(COutputCache) call in its view.' in D:\GitHub\yii_1\framework\web\CBaseController.php:210
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CBaseController.php(273): CBaseController->endWidget('COutputCache')
+#1 D:\GitHub\yii_1\trackstar\protected\views\project\index.php(61): CBaseController->endCache()
+#2 D:\GitHub\yii_1\framework\web\CBaseController.php(126): require('D:\GitHub\yii_1...')
+#3 D:\GitHub\yii_1\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\GitHub\yii_1...', Array, true)
+#4 D:\GitHub\yii_1\framework\web\CController.php(869): CBaseController->renderFile('D:\GitHub\yii_1...', Array, true)
+#5 D:\GitHub\yii_1\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php(183): CController->render('index', Array)
+#7 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(49): ProjectController->actionIndex()
+#8 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('project')
+#18 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/git/yii_1/trackstar/project
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/project/1
+---
+2014/07/14 10:56:26 [error] [exception.CException] exception 'CException' with message 'Property "RecentComments.htmlOptions" is not defined.' in D:\GitHub\yii_1\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CWidgetFactory.php(161): CComponent->__set('htmlOptions', Array)
+#1 D:\GitHub\yii_1\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProjectController), 'RecentComments', Array)
+#2 D:\GitHub\yii_1\framework\web\CBaseController.php(172): CBaseController->createWidget('RecentComments', Array)
+#3 D:\GitHub\yii_1\trackstar\themes\new\views\layouts\column2_p.php(19): CBaseController->widget('RecentComments', Array)
+#4 D:\GitHub\yii_1\framework\web\CBaseController.php(126): require('D:\GitHub\yii_1...')
+#5 D:\GitHub\yii_1\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\GitHub\yii_1...', Array, true)
+#6 D:\GitHub\yii_1\framework\web\CController.php(784): CBaseController->renderFile('D:\GitHub\yii_1...', Array, true)
+#7 D:\GitHub\yii_1\trackstar\protected\controllers\ProjectController.php(183): CController->render('index', Array)
+#8 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(49): ProjectController->actionIndex()
+#9 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\GitHub\yii_1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\GitHub\yii_1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\GitHub\yii_1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\GitHub\yii_1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\GitHub\yii_1\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\GitHub\yii_1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): CController->run('')
+#18 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController('project')
+#19 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 D:\GitHub\yii_1\trackstar\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/git/yii_1/trackstar/project
+HTTP_REFERER=http://localhost/git/yii_1/trackstar/project/1
+---
+2014/07/14 14:49:46 [error] [php] Undefined index: HTTP_ACCEPPT_LANGUAGE (D:\GitHub\yii_1\trackstar\protected\components\Controller.php:33)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#1 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login
+in D:\GitHub\yii_1\trackstar\protected\components\Controller.php (33)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 14:50:17 [error] [php] Undefined index: HTTP_ACCEPPT_LANGUAGE (D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php:51)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\GitHub\yii_1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php(118): SiteController->render()
+#3 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\GitHub\yii_1\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\GitHub\yii_1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login
+in D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php (51)
+in D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php (118)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 14:52:39 [error] [php] Undefined index: HTTP_ACCEPPT_LANGUAGE (D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php:51)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\GitHub\yii_1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php(118): SiteController->render()
+#3 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\GitHub\yii_1\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\GitHub\yii_1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login
+in D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php (51)
+in D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php (118)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 14:52:42 [error] [php] Undefined index: HTTP_ACCEPPT_LANGUAGE (D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php:51)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\GitHub\yii_1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php(118): SiteController->render()
+#3 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\GitHub\yii_1\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\GitHub\yii_1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login
+in D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php (51)
+in D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php (118)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 14:54:23 [error] [php] Undefined index: HTTP_ACCEPPT_LANGUAGE (D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php:51)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\GitHub\yii_1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php(118): SiteController->render()
+#3 D:\GitHub\yii_1\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 D:\GitHub\yii_1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\GitHub\yii_1\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\GitHub\yii_1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\GitHub\yii_1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\GitHub\yii_1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login
+in D:\GitHub\yii_1\trackstar\protected\views\site\zh_cn\login.php (51)
+in D:\GitHub\yii_1\trackstar\protected\controllers\SiteController.php (118)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 14:55:55 [error] [php] Undefined index: HTTP_ACCEPPT_LANGUAGE (D:\GitHub\yii_1\trackstar\protected\components\Controller.php:33)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#1 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login
+in D:\GitHub\yii_1\trackstar\protected\components\Controller.php (33)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 15:13:19 [error] [php] Undefined index: HTTP_ACCEPPT_LANGUAGE (D:\GitHub\yii_1\trackstar\protected\components\Controller.php:34)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#1 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login
+in D:\GitHub\yii_1\trackstar\protected\components\Controller.php (34)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 15:17:10 [error] [php] Undefined offset: 1 (D:\GitHub\yii_1\trackstar\protected\components\Controller.php:25)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#1 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login?lang=en_us
+in D:\GitHub\yii_1\trackstar\protected\components\Controller.php (25)
+in D:\GitHub\yii_1\trackstar\index.php (13)
+2014/07/14 15:20:14 [error] [php] Undefined offset: 1 (D:\GitHub\yii_1\trackstar\protected\components\Controller.php:25)
+Stack trace:
+#0 D:\GitHub\yii_1\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#1 D:\GitHub\yii_1\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yii_1/trackstar/site/login?lang=en_us
+in D:\GitHub\yii_1\trackstar\protected\components\Controller.php (25)
+in D:\GitHub\yii_1\trackstar\index.php (13)

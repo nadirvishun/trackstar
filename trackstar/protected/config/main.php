@@ -12,7 +12,7 @@ return array(
 	'homeUrl'=>'http://localhost/git/yii_1/trackstar/project',
 	
 	'theme'=>'new',
-		
+	'language'=>'en_us',	
 	// preloading 'log' component
 	'preload'=>array('log'),
 

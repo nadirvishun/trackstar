@@ -71,13 +71,20 @@ class Project extends TrackStarActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'name' => 'Name',
-			'description' => 'Description',
-			'create_time' => 'Create Time',
-			'create_user_id' => 'Create User',
-			'update_time' => 'Update Time',
-			'update_user_id' => 'Update User',
+// 			'id' => 'ID',
+// 			'name' => 'Name',
+// 			'description' => 'Description',
+// 			'create_time' => 'Create Time',
+// 			'create_user_id' => 'Create User',
+// 			'update_time' => 'Update Time',
+// 			'update_user_id' => 'Update User',
+			'id'=>Yii::t('zh_cn', 'ID'),
+			'name'=>Yii::t('zh_cn', 'Name'),
+			'description'=>Yii::t('zh_cn', 'Description'),
+			'create_time'=>Yii::t('zh_cn', 'Create Time'),
+			'create_user_id'=>Yii::t('zh_cn', 'Create User'),
+			'update_time'=>Yii::t('zh_cn', 'Update Time'),
+			'update_user_id'=>Yii::t('zh_cn', 'Update User'),
 		);
 	}
 

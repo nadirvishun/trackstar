@@ -80,7 +80,7 @@ class SiteController extends Controller
 	public function actionLogin()
 	{
 		//设定语言
-// 		Yii::app()->language='rev';
+// 		Yii::app()->language='zh_cn';
 		//设定记录信息
 		Yii::trace("The actionLogin() method is being requested",
 		"application.controllers.SiteController");
